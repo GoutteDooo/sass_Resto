@@ -1,0 +1,118 @@
+header {
+    height: 100vh;
+    background: url("/assets/img/bg-slider-06.jpg") fixed center/cover;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 60px;
+        height : 10vh;
+        .logo {
+            display: flex;
+            font-family: allura;
+            font-size: 2.9rem;
+            font-weight: 600;
+            user-select: none;
+        }
+        @media screen and (min-width:900px) {
+            padding: 20px 15%;
+        }
+        ul {
+            display: flex;
+        }
+        .nav-left {
+            @media screen and (min-width:1200px) {
+                width: 80%;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 10%;
+            }
+            li {
+                display: none;
+                @media screen and (min-width:1200px) {
+                    display: flex;
+                    font-size: 1rem;
+                    font-weight: 100;
+                    height: 100%;
+                    justify-content: center;
+                    align-items: center;
+                }
+                &:hover{
+                    color: $orange;
+                    transition: 0.2s;
+                    cursor: pointer;
+                }
+            }
+        }
+        .nav-right {
+            @media screen and (min-width:1200px) {
+                width: 15%;
+            }
+            width: 30%;
+            justify-content: space-between;
+            align-items: center;
+            li {
+                button {
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    height: 100%;
+                    width: 100%;
+                    font-size: 1.1rem;
+                    i {
+                        &:hover{
+                            color: $orange;
+                            transform: scale(1.2);
+                            transition: 0.2s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .presentation {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5%;
+        .presentation-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 70%;
+            h1 {
+                font-family: allura;
+                color: $orange;
+                font-size: 2.5rem;
+                font-weight: 300;
+            }
+            h2 {
+                margin: 40px 0;
+                letter-spacing: 12px;
+                font-size: 2.8rem;
+                white-space: nowrap;
+                font-family: poppins;
+            }
+            a {
+                button {
+                    background: url("/assets/img/ic-plate-big.png") center/cover;
+                    border: none;
+                    height: 30px;
+                    width: 30px;
+                    cursor: pointer;
+                    &:hover{
+                        transform: scale(1.2);
+                        transition: 0.2s;
+                    }
+                }
+            }
+            p {
+                margin: 40px 10% 0 10%;
+                letter-spacing: 6px;
+                text-align: center;
+                font-weight: 550;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

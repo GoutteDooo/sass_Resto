@@ -1,0 +1,65 @@
+//variables
+
+@font-face {
+    font-family: "Allura";
+    src: url(/assets/fonts/Allura-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(/assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/assets/fonts/Roboto-Light.ttf);
+}
+
+$orange : rgb(166,114,69);
+$white : rgb(238,238,238);
+$grey : rgb(184,186,189);
+$bg : rgb(33,32,30);
+/*CORRECTION Définir les fonts aussi
+
+$font1 : Allura, cursive; //Met Allura et si ça ne marche pas, cursive sera appliqué.
+$font2 : Poppins, serif;
+$font3: Roboto, serif;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; //Important de mettre ces trois éléments à chaque projet !
+    font-family: roboto;
+    color: $white;
+}
+html {
+    scroll-behavior: smooth;
+    background: $bg;
+}
+li {
+    list-style: none;
+}
+a,a:visited {
+    color : $white;
+}
+@mixin discoverTitle {
+    color: $orange;
+    font-family: allura;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+@mixin discoverSubTitle {
+    font-size: 1.4rem;
+    font-weight: 900;
+    font-family: poppins;
+}
+/* CORRECTION :
+@mixin alignChildren($space){
+    display: flex;
+    align-items: center;
+    justify-content: $space; // Permet d'appliquer la donnée en paramètre
+*/
+
+body {
+    margin: 0 auto;
+    max-width: 1800px;
+}
