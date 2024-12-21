@@ -11,7 +11,7 @@ footer {
     }
     .footer-bg{
         @media screen and (min-width:1200px) {
-            background: url("/assets/img/bg-footer.jpg") center/cover;
+            background: url("../../img/bg-footer.jpg") center/cover;
         }
         .footer-container{
             @media screen and (min-width:1200px) {
