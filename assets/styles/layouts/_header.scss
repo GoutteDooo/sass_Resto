@@ -9,7 +9,7 @@ header {
         top: 0;
         left: 0;
         filter: brightness(70%);
-        background: url("//img/bg-slider-06.jpg") fixed center/cover;
+        background: url("/sass_Resto/assets/img/bg-slider-06.jpg") fixed center/cover;
         z-index: -1;
 }
     nav {
@@ -106,7 +106,7 @@ header {
             }
             a {
                 button {
-                    background: url("../../img/ic-plate-big.png") center/cover;
+                    background: url("/sass_Resto/assets/img/ic-plate-big.png") center/cover;
                     border: none;
                     height: 30px;
                     width: 30px;

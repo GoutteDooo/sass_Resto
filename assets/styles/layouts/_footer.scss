@@ -11,7 +11,7 @@ footer {
     }
     .footer-bg{
         @media screen and (min-width:1200px) {
-            background: url("../../img/bg-footer.jpg") center/cover;
+            background: url("/sass_Resto/assets/img/bg-footer.jpg") center/cover;
         }
         .footer-container{
             @media screen and (min-width:1200px) {
