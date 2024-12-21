@@ -166,6 +166,9 @@ main {
                             height: 180px;
                             align-items: center;
                             justify-content: space-evenly;
+                            @media screen and (max-width: 360px) {
+                                padding: 20px 10px 20px 5px;
+                            }
                             img{
                                 border-radius: 50%;
                             }
@@ -244,6 +247,9 @@ main {
                             font-size: 1.7rem;
                             @media screen and (min-width: 1200px) {
                                 font-size: 1.4rem;
+                            }
+                            @media screen and (max-width: 360px) {
+                                font-size: 1.3rem;
                             }
                             i {
                                 font-size: 0.95rem;

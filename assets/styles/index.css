@@ -53,6 +53,11 @@ body {
 footer {
   background: rgb(33, 32, 30);
 }
+@media screen and (max-width: 400px) {
+  footer {
+    padding-top: 150px;
+  }
+}
 @media screen and (min-width: 800px) {
   footer {
     padding-top: 50px;
@@ -599,6 +604,11 @@ main section:nth-child(2) .menu .menu-container .menu-plaquette .menu-plaquette-
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
+@media screen and (max-width: 360px) {
+  main section:nth-child(2) .menu .menu-container .menu-plaquette .menu-plaquette-container .mp-box {
+    padding: 20px 10px 20px 5px;
+  }
+}
 main section:nth-child(2) .menu .menu-container .menu-plaquette .menu-plaquette-container .mp-box img {
   border-radius: 50%;
 }
@@ -702,6 +712,11 @@ main section:nth-child(3) .reservation .reservation-container .reservation-left 
 @media screen and (min-width: 1200px) {
   main section:nth-child(3) .reservation .reservation-container .reservation-left .rl-infos h5 {
     font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  main section:nth-child(3) .reservation .reservation-container .reservation-left .rl-infos h5 {
+    font-size: 1.3rem;
   }
 }
 main section:nth-child(3) .reservation .reservation-container .reservation-left .rl-infos h5 i {

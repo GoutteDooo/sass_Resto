@@ -1,5 +1,8 @@
 footer {
     background: $bg;
+    @media screen and (max-width:400px) {
+        padding-top: 150px;
+    }
     @media screen and (min-width:800px) {
         padding-top: 50px;
     }
