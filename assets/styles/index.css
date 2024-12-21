@@ -195,7 +195,7 @@ header:before {
   left: 0;
   -webkit-filter: brightness(70%);
           filter: brightness(70%);
-  background: url("assets/img/bg-slider-06.jpg") fixed center/cover;
+  background: url("../../img/bg-slider-06.jpg") fixed center/cover;
   z-index: -1;
 }
 header nav {
@@ -336,7 +336,7 @@ header .presentation .presentation-container h2 {
   font-family: poppins;
 }
 header .presentation .presentation-container a button {
-  background: url("assets/img/ic-plate-big.png") center/cover;
+  background: url("../../img/ic-plate-big.png") center/cover;
   border: none;
   height: 30px;
   width: 30px;
