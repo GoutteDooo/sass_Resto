@@ -575,7 +575,7 @@ main section:nth-child(2) .menu .menu-container .menu-plaquette .menu-plaquette-
   width: 80%;
   display: grid;
   grid-template-rows: repeat(8, 1fr);
-  padding: 20px;
+  padding: 20px 0;
   border-top: 6px solid rgb(166, 114, 69);
 }
 @media screen and (min-width: 1200px) {
@@ -589,7 +589,7 @@ main section:nth-child(2) .menu .menu-container .menu-plaquette .menu-plaquette-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 40px 10px;
+  padding: 40px 20px 40px 10px;
   border-bottom: 1px dashed rgb(184, 186, 189);
   height: 180px;
   -webkit-box-align: center;

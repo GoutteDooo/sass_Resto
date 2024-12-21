@@ -152,7 +152,7 @@ main {
                         width: 80%;
                         display: grid;
                         grid-template-rows: repeat(8, 1fr);
-                        padding: 20px;
+                        padding: 20px 0;
                         border-top: 6px solid $orange;
                         @media screen and (min-width:1200px) {
                             width: 60%;
@@ -161,7 +161,7 @@ main {
                         }
                         .mp-box{
                             display: flex;
-                            padding: 40px 10px;
+                            padding: 40px 20px 40px 10px;
                             border-bottom: 1px dashed $grey;
                             height: 180px;
                             align-items: center;
